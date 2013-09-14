@@ -1,10 +1,10 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Simple B operating library",
    "author" : [
       "tokuhirom <tokuhirom@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.6.5, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Minilla/v0.6.5, CPAN::Meta::Converter version 2.132510",
    "license" : [
       "perl_5"
    ],
@@ -42,6 +42,7 @@
       },
       "runtime" : {
          "requires" : {
+            "parent" : "0",
             "perl" : "5.008005"
          }
       },
@@ -52,5 +53,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/B-Tools/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/B-Tools",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tokuhirom/B-Tools.git",
+         "web" : "https://github.com/tokuhirom/B-Tools"
+      }
+   },
    "version" : "0.01"
 }
