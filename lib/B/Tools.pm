@@ -42,6 +42,8 @@ sub op_descendants($) {
 1;
 __END__
 
+=for stopwords grepping grep
+
 =encoding utf-8
 
 =head1 NAME
